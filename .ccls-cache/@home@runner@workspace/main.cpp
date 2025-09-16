@@ -1,7 +1,11 @@
-#include <stdio.h>
-int a = 10;
+#include <iostream>
 
-int main(void) {
-  printf("%d", a);
+int main(void)
+{
+  int num = 20;
+  std::cout<<"Hello World!"<<std::endl;
+  std::cout<<"Hello "<<"World! "<<std::endl;
+  std::cout<<num<<' '<<'A';
+  std::cout<<' '<<3.14<<std::endl;
   return 0;
 }
